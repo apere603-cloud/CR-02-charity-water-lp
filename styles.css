@@ -1,10 +1,29 @@
-/* Beginner-friendly CSS with comments explaining each section */
+/* CSS for displaying the charity water landing page */
 
-/* Brand colors and basic typography:
-   - Primary teal for trust and water
-   - Accent orange for call-to-action
-   - Dark neutral for text
-*/
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full viewport layout */
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Landing page container with background image */
+.landing-page {
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/charity_water_landing_page_template.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white; /* fallback color */
+}
 :root{
   --color-primary: #0aa5a2;   /* teal */
   --color-accent:  #ff8a4b;   /* warm orange */
