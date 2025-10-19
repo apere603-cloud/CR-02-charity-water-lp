@@ -1,3 +1,23 @@
+/* CTA Button styles */
+.cta-btn {
+  background: #ffc907;
+  border: none;
+  border-radius: 32px;
+  padding: 24px 64px;
+  display: inline-block;
+  margin: 32px 0 0 40px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.cta-btn-text {
+  font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-decoration: underline;
+  line-height: 1.2;
+  display: inline-block;
+}
 /* Supporting text styles */
 .supporting-text {
   font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
