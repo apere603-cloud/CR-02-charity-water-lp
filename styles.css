@@ -98,7 +98,7 @@ html, body {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: white; /* fallback color */
+    background-color: #2e9df7; /* fallback color */
 }
 :root{
   --color-primary: #0aa5a2;   /* teal */
