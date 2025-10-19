@@ -31,9 +31,6 @@ main, .site-footer { max-width: var(--max-width); margin: 0 auto; padding: 20px;
 */
 .hero{
   position: relative; /* establish positioning context for overlay */
-  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=60');
-  background-size: cover;
-  background-position: center;
   color: white;
   min-height: 60vh;
   display: flex;
@@ -41,6 +38,17 @@ main, .site-footer { max-width: var(--max-width); margin: 0 auto; padding: 20px;
   justify-content: center;
   text-align: center;
   padding: 40px 20px;
+  overflow: hidden; /* ensure image doesn't overflow */
+}
+
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0; /* place behind content */
 }
 .hero::after{
   /* overlay to ensure text stays readable over the image */

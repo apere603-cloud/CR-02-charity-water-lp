@@ -3,61 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
+    <title>Charity: Water | Making a Difference</title>
+    <meta name="description" content="Join us in providing clean water to communities in need. Every donation brings us closer to a world where everyone has access to safe drinking water.">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
+    <!-- Skip link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
-
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
+    <!-- Hero Section -->
+    <header class="hero">
+        <img src="charity_water_landing_page_template.png" alt="Charity Water Landing Page Template" class="hero-background">
+        <div class="hero-inner">
+            <h1 class="hero-title">Clean Water Changes Everything</h1>
+            <p class="hero-sub">Join us in bringing safe drinking water to communities in need</p>
+            <div class="hero-cta">
+                <a href="#donate" class="btn btn-primary">Make a Difference</a>
+            </div>
         </div>
-    </section>
+    </header>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
-    </section>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Charity:WaterLandingPagee</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body { margin: 0; padding: 0; background-color: #f4f4f4; }
-        .landing-image { max-width: 100%; height: auto; display: block; }
-    </style>
-</head>
-<body>
-    <a href="URL_FOR_YOUR_CALL_TO_ACTION">
-        <img src="charity_water_landing_page_template.png" alt="Landing Page Design" class="landing-image">
-    </a>
+    <main id="main-content">
+        <!-- Story Section -->
+        <section class="story">
+            <img src="img/impact-story.jpg" alt="A young girl drinking clean water from a newly installed well" class="story-image">
+            <div class="story-content">
+                <h2>Our Impact</h2>
+                <p>In remote villages across the globe, access to clean water transforms entire communities. Through sustainable solutions and local partnerships, we've helped thousands of families gain access to safe drinking water.</p>
+                <p class="muted">Every $1 invested in clean water generates $4 in economic returns through saved time and improved health.</p>
+            </div>
+        </section>
+
+        <!-- Donation Section -->
+        <section class="donation" id="donate">
+            <h2>Make Clean Water Possible</h2>
+            <p>Your donation brings us closer to a world where everyone has access to clean, safe drinking water.</p>
+            <a href="#donate-form" class="btn btn-accent">Donate Now</a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2025 Charity Water. Making a difference, one cup of water at a time.</p>
+    </footer>
 </body>
 </html>
