@@ -1,3 +1,14 @@
+.main-image-bottomright {
+  position: fixed;
+  bottom: 24px;
+  right: 32px;
+  width: 66vw;
+  max-width: 800px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  z-index: 50;
+}
 /* CTA Button styles */
 .cta-btn {
   background: #ffc907;
@@ -5,7 +16,7 @@
   border-radius: 32px;
   padding: 24px 64px;
   display: inline-block;
-  margin: 32px 0 0 40px;
+  margin: 33vh 0 0 40px;
   cursor: pointer;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
