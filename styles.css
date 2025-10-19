@@ -9,9 +9,19 @@
 
 /* Full viewport layout */
 html, body {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background: #2E9DF7;
+  overflow: hidden;
+}
+/* Top-right logo styling */
+.corner-logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 100px;
+  height: auto;
+  z-index: 10;
 }
 
 /* Landing page container with background image */

@@ -3,34 +3,10 @@
 <head>
     <title>Charity: Water Landing Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background: #f0f0f0; /* Light gray background to see if image loads */
-        }
-        .landing-image {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            min-height: 200px; /* Minimum height to see if image loads */
-            border: 2px solid #ccc; /* Border to see image boundaries */
-            background: #e0e0e0; /* Background to see if image area appears */
-        }
-        /* Style for failed image load */
-        .landing-image:-moz-broken,
-        .landing-image:-moz-loading,
-        .landing-image:not([src]),
-        .landing-image[src=""] {
-            background: #ff000020; /* Red tint if image fails to load */
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <img src="img/charity_water_landing_page_template.png" alt="Charity Water Landing Page" class="landing-image">
+    <img src="img/cw_logo-2.png" alt="Charity Water Logo" class="corner-logo">
 </body>
 </html>
