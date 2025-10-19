@@ -19,6 +19,10 @@
     margin: 75vh 0 0 40px; /* 3/4 of viewport height from top */
     cursor: pointer;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    .cta-btn{
+  /* Move .cta-btn up (Y-axis) by 25% of its own height */
+  transform: translateY(-25%);
+}
 }
 .cta-btn-text {
   font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
