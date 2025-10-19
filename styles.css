@@ -16,7 +16,7 @@
     border-radius: 32px;
     padding: 24px 64px;
     display: inline-block;
-    margin: 25vh 0 0 40px; /* 1/4th of viewport height from previous element */
+    margin: 75vh 0 0 40px; /* 3/4 of viewport height from top */
     cursor: pointer;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
@@ -36,7 +36,7 @@
     font-size: 19px;
     font-weight: 400;
     text-align: left;
-    margin: 33vh 0 0 40px; /* 1/3rd of viewport height from top */
+    margin: 66vh 0 0 40px; /* 2/3rds of viewport height from top */
     line-height: 1.5;
 }
 /* Main image right alignment and sizing */
@@ -61,7 +61,7 @@
     font-size: 56px;
     font-weight: 700;
     text-align: left;
-    margin: 12.5vh 0 0 40px; /* 1/8th of viewport height from top */
+    margin: 33vh 0 0 40px; /* 1/3rd of viewport height from top */
     line-height: 1.3;
 }
 /* CSS for displaying the charity water landing page */
